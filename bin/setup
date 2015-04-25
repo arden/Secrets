@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 bundle install
-carthage checkout
+carthage bootstrap
 
 cp Secrets/KeysExample.swift Secrets/Keys.swift
